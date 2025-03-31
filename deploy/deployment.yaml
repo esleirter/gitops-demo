@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:1.25-alpine  # Versión explícita, ligera y estable
+          image: nginx:1.26-alpine  # Versión explícita, ligera y estable
           ports:
             - containerPort: 80
           resources:                # Límite y solicitud de recursos
